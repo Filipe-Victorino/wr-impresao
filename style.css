@@ -1,0 +1,82 @@
+*{
+    margin: 0;
+    padding: 0;  
+    
+}
+
+
+nav{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    
+    margin-bottom: 100px;
+    box-shadow:  -14px 14px 28px #b3b3b3,
+             14px -14px 28px #ffffff;
+}
+
+.container-ufos{
+   
+    height: 100%;
+display: flex;
+    
+    
+    justify-content: center;
+   
+    
+
+}
+    
+ 
+
+ .container-ufos .hamburguer{
+    
+    
+    border-radius: 50px;
+    background: #ffffff;
+    box-shadow:  20px 20px 60px #bfbfbf,
+                 -20px -20px 60px #ffffff;
+    
+    margin-bottom: 50px;
+                 width: 300px;
+                 height: 350px;
+                 background: #0066ff62;
+                 padding: 1rem;
+                 border-radius: 1rem;
+                 border: .5vmin solid #05060f;
+                 box-shadow: .4rem .4rem #05060f;
+                 margin-right: 50px;
+                 color: black;
+                 text-align: center;
+ }
+
+ .container-ufos .hotdog{
+    border-radius: 50px;
+    background: #ffffff;
+    box-shadow:  20px 20px 60px #bfbfbf,
+                 -20px -20px 60px #ffffff;
+    
+    
+                 width: 300px;
+                 height: 350px;
+                 background: #0066ff62;
+                 padding: 1rem;
+                 border-radius: 1rem;
+                 border: .5vmin solid #05060f;
+                 box-shadow: .4rem .4rem #05060f;
+                 text-align: center;
+                 color: black;
+
+ }
+
+ @media screen and (max-width: 600px){
+    .container-ufos{
+        width: 100%;
+        flex-direction: column;
+       
+        
+        
+  
+        
+    }
+ }
